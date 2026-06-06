@@ -1,0 +1,66 @@
+@media only screen and (min-width: 200px) and (max-width:575px){
+
+    .deal-section{
+        min-height: auto;
+    }
+
+    .deal-section h2{
+        font-size: 50px !important;
+    }
+
+    .deal-section p.fs-4{
+        font-size: 18px !important;
+    }
+
+    .price-circle{
+        position: static;
+        width: 180px;
+        height: 180px;
+        margin: 30px auto;
+    }
+
+    .price-value{
+        font-size: 60px;
+    }
+
+    .price-unit{
+        font-size: 24px;
+    }
+
+    .contact-icon{
+        width: 45px;
+        height: 45px;
+        font-size: 18px;
+    }
+    footer{
+        text-align:center;
+    }
+
+    .send-btn{
+        width:100%;
+    }
+
+    .social-link{
+        font-size:32px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width:991px){
+
+    .price-circle{
+        width: 220px;
+        height: 220px;
+        left: 60%;
+    }
+
+    .price-value{
+        font-size: 75px;
+    }
+
+    .price-unit{
+        font-size: 30px;
+    }
+    .carousel-item .col-lg-4:last-child{
+        display:none;
+    }
+}
